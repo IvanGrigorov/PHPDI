@@ -1,0 +1,42 @@
+{
+    "mapInstances": [
+        {
+            "URLParser" : {
+                "className": "URLParser",
+                "isSingleton": true,
+                "lazy": true
+            }
+        },
+        {
+            "URLParser" : {
+                "className": "URLParser",
+                "isSingleton": true,
+                "lazy": true
+            }
+        }
+    ],
+    "mapValueTypes": [
+        {
+            "name": "named",
+            "type": "string",
+            "value": "Test Value"
+        }
+        
+    ],
+    "mapParameterBasedObjects": [
+        {
+            "URLParser" : {
+                "className": "URLParser",
+                "isSingleton": true,
+                "lazy": true,
+                "params": [
+                    {
+                        "url": {
+                            "defaultValue": "defaultvalue"
+                        } 
+                    }                   
+                ]
+            }
+        }
+    ]
+}
