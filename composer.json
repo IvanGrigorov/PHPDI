@@ -1,5 +1,5 @@
 {
-    "name": "phpdicontainer/phpdicontainer",
+    "name": "phpdi/dicontainer",
     "type": "library",
     "description": "DI container for php projects",
     "keywords": ["DI","Dependency Injection", "Container"],
