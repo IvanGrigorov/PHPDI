@@ -30,7 +30,9 @@ This is a minimalistic PHP project with the aim to provide simple but powerfull 
 
 The whole disign behind the realisation is *Convention over Configuration*. That, does not mean that you will not need to adjust some tweeks,but nothing special. 
 
-**Currently there are two versions of the project:**  
+**Currently there are two versions of the project: This is the official second version. The second version contains everithing from the first one.** 
+
+**Version one will not be maintained anymore.**
 
 *Beta* state means, that everithing tested so far works, but there might be some small bugs. 
 
@@ -101,6 +103,9 @@ All these things, can be modified in the Config.php
 
 ### How to use 
 
+**Before use you can delete doc folder, index.php, IURLParser.php and URLParser.php which are used only for the tests.**
+**Update the config dependencies json file.**
+
 1. Import Container in the file
 2. Get instance of the container (static method) 
 3. Call the requested method with the correct parameters. (To get reference type object pass the className with the "I" prefix -> IclassName).  
@@ -108,7 +113,7 @@ All these things, can be modified in the Config.php
     If "value" is not given, the default from the config is used. 
 
 
-## **PHPDI_v1.2** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDIContainer.svg?branch=PHPDI_v1.2)](https://travis-ci.org/IvanGrigorov/PHPDIContainer)
+## *(Beta)* **PHPDI_v1.2** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDIContainer.svg?branch=PHPDI_v1.2)](https://travis-ci.org/IvanGrigorov/PHPDIContainer)
 
 In progress, 
  - ***main feature lazy instantiation*** 
