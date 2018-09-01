@@ -2,6 +2,7 @@
     "name": "phpdi/dicontainer",
     "type": "library",
     "description": "DI container for php projects",
+    "minimum-stability": "stable",
     "keywords": ["DI","Dependency Injection", "Container"],
     "homepage": "https://github.com/IvanGrigorov/PHPDI",
     "license": "MIT",
