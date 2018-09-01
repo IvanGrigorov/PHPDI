@@ -103,6 +103,7 @@ All these things, can be modified in the Config.php
 
 ### How to use 
 
+**composer require phpdi/dicontainer**
 **Before use you can delete doc folder, index.php, IURLParser.php and URLParser.php which are used only for the tests.**
 **Update the config dependencies json file.**
 
