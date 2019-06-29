@@ -1,5 +1,5 @@
 {
-    "name": "ivangrigorov/dicontainer",
+    "name": "ivangrigorov/php-simple-dicontainer",
     "type": "library",
     "description": "DI container for php projects",
     "minimum-stability": "stable",
