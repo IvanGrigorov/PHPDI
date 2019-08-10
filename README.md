@@ -38,7 +38,7 @@ The whole disign behind the realisation is *Convention over Configuration*. That
 
 *Alpha* state means, that it is still in phase of testing and might be unstable, but you can always give a try and report an issue, bug or missing feature. 
 
-## **PHPDI** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDIContainer.svg?branch=PHPDI_v1.1)](https://travis-ci.org/IvanGrigorov/PHPDIContainer)
+## **PHPDI** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDI.svg?branch=master)](https://travis-ci.org/IvanGrigorov/PHPDI)
 
 ### Config: 
 
