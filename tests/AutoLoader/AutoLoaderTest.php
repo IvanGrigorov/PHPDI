@@ -26,7 +26,7 @@ class AutoLoaderTest extends TestCase {
     {
         // Arrange
         $autoloader = new AutoLoader();
-        $fileToUpload = __DIR__."\..\..\DI\Lib\Config.php";
+        $fileToUpload = __DIR__."/../../DI/Lib/Config.php";
 
         // Act and Assert
 
