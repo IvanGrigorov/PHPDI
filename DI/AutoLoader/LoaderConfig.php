@@ -15,5 +15,7 @@ define("FILE_LOCATION", dirname(__FILE__));
 
 final class LoaderConfig {
 
+    const ROOT_FOLDER = "\..\..\..\..\..";
+
     const URLPARSER = FILE_LOCATION."/../URLParser.php";
 }

@@ -38,7 +38,7 @@ The whole disign behind the realisation is *Convention over Configuration*. That
 
 *Alpha* state means, that it is still in phase of testing and might be unstable, but you can always give a try and report an issue, bug or missing feature. 
 
-## **PHPDI_v1.1** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDIContainer.svg?branch=PHPDI_v1.1)](https://travis-ci.org/IvanGrigorov/PHPDIContainer)
+## **PHPDI** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDIContainer.svg?branch=PHPDI_v1.1)](https://travis-ci.org/IvanGrigorov/PHPDIContainer)
 
 ### Config: 
 
@@ -76,7 +76,7 @@ See the examples in the project.
 
 #### No more endless `required_once`
 
-There is an AutoLoader, which loads the classes automatically when needed. Just specify the path in the LoaderConfig.php once.   
+There is an AutoLoader, which loads the classes automatically *just* when needed. Just specify the path in the LoaderConfig.php once.   
 
 #### Easy change between service (injection) providers
 
@@ -101,6 +101,14 @@ Option to check whether all injections have and Interface, inherited by them.
 
 All these things, can be modified in the Config.php
 
+#### Lazy Instantiation
+
+Initialy creates a proxy object, that loads the whole object only when used.
+
+#### Easier configs
+
+The injection configs are now exported to json files, which makes working with different ones very easy.
+
 ### How to use 
 
 **composer require phpdi/dicontainer**
@@ -108,19 +116,16 @@ All these things, can be modified in the Config.php
 **Before use you can delete doc folder, index.php, IURLParser.php and URLParser.php which are used only for the tests.**
 **Update the config dependencies json file.**
 
-1. Import Container in the file
-2. Get instance of the container (static method) 
-3. Call the requested method with the correct parameters. (To get reference type object pass the className with the "I" prefix -> IclassName).  
+1. In your composer.json file add `"autoload": {
+        "classmap": ["vendor/ivangrigorov/php-simple-dicontainer/DI/Lib/"]
+    }`
+2. Run `composer update` command
+3. In your initial file add `require __DIR__."/vendor/autoload.php";
+`     
+3. Get instance of the container (static method) 
+4. Call the requested method with the correct parameters. (To get reference type object pass the className with the "I" prefix -> IclassName).  
     3.1. Example for parameter for getInjectionWithParams method - `["params" => array(["name" => "url"])]);`  
     If "value" is not given, the default from the config is used. 
-
-
-## *(Beta)* **PHPDI_v1.2** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDIContainer.svg?branch=PHPDI_v1.2)](https://travis-ci.org/IvanGrigorov/PHPDIContainer)
-
-In progress, 
- - ***main feature lazy instantiation*** 
- - ***easier use of different configs*** 
-
 
 ## Conclusion 
 
