@@ -1,8 +1,8 @@
 <?php
 
-include_once __DIR__."\..\..\DI\Utils\Utils.php";
-include_once __DIR__."\..\..\DI\Errors\GlobalExceptions.php";
-include_once __DIR__."\..\..\DI\Errors\WorkflowErrors.php";
+include_once __DIR__."/../../DI/Utils/Utils.php";
+include_once __DIR__."/../../DI/Errors/GlobalExceptions.php";
+include_once __DIR__."/../../DI/Errors/WorkflowErrors.php";
 
 use PHPUnit\Framework\TestCase;
 use GlobalExcpetions\ParameterNotGIvenException;

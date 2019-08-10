@@ -1,7 +1,7 @@
 <?php
 
-include_once __DIR__."\..\..\DI\AutoLoader\AutoLoader.php";
-include_once __DIR__."\..\..\DI\Errors\WorkflowErrors.php";
+include_once __DIR__."/../../DI/AutoLoader/AutoLoader.php";
+include_once __DIR__."/../../DI/Errors/WorkflowErrors.php";
 
 use PHPUnit\Framework\TestCase;
 use WorkflowErrors;
