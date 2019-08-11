@@ -38,7 +38,7 @@ The whole disign behind the realisation is *Convention over Configuration*. That
 
 *Alpha* state means, that it is still in phase of testing and might be unstable, but you can always give a try and report an issue, bug or missing feature. 
 
-## **PHPDI** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDI.svg?branch=master)](https://travis-ci.org/IvanGrigorov/PHPDI) ![(https://img.shields.io/badge/coverage-14%-orange)](https://img.shields.io/badge/coverage-14%-orange)  ![(https://img.shields.io/badge/version-stable-green)](https://img.shields.io/badge/version-stable-green)
+## **PHPDI** [![Build Status](https://travis-ci.org/IvanGrigorov/PHPDI.svg?branch=master)](https://travis-ci.org/IvanGrigorov/PHPDI) ![(https://img.shields.io/badge/coverage-14%25-orange)](https://img.shields.io/badge/coverage-14%25-orange)  ![(https://img.shields.io/badge/version-stable-green)](https://img.shields.io/badge/version-stable-green)
 
 ### Config: 
 
