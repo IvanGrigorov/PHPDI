@@ -111,7 +111,7 @@ The injection configs are now exported to json files, which makes working with d
 
 ### How to use 
 
-**composer require phpdi/dicontainer**
+**composer require ivangrigorov/php-simple-dicontainer**
 
 **Before use you can delete doc folder, index.php, IURLParser.php and URLParser.php which are used only for the tests.**
 **Update the config dependencies json file.**
